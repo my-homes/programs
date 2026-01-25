@@ -5,6 +5,8 @@ cd "$(dirname "$0")"
 cwd=`pwd`
 ts=`date "+%Y.%m%d.%H%M.%S"`
 
+git-release-clear
+
 version=v$ts
 
 echo https://github.com/my-homes/programs/releases/download/$version/abc.txt>url.txt
