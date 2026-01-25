@@ -6,3 +6,4 @@ cwd=`pwd`
 ts=`date "+%Y.%m%d.%H%M.%S"`
 
 url-text `url-text https://github.com/my-homes/programs/raw/main/url.txt`
+url-text https://github.com/my-homes/programs/raw/main/version-url.txt

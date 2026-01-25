@@ -8,6 +8,7 @@ ts=`date "+%Y.%m%d.%H%M.%S"`
 version=v$ts
 
 echo https://github.com/my-homes/programs/releases/download/$version/abc.txt>url.txt
+echo $version https://github.com/my-homes/programs/releases/download/$version/abc.txt>version-url.txt
 
 tag="$version"
 cd $cwd
