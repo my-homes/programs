@@ -19,3 +19,5 @@ git push origin HEAD:main
 #git remote -v
 
 git-release-create $version abc.txt
+
+echo https://github.com/my-homes/programs/raw/main/url.txt
