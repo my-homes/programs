@@ -9,8 +9,8 @@ git-release-clear
 
 version=v$ts
 
-echo https://github.com/my-homes/programs/releases/download/$version/abc.txt>url.txt
-echo $version https://github.com/my-homes/programs/releases/download/$version/abc.txt>version-url.txt
+echo https://github.com/my-homes/programs/releases/download/$version/programs.zip>url.txt
+echo $version https://github.com/my-homes/programs/releases/download/$version/programs.zip>version-url.txt
 
 tag="$version"
 cd $cwd
@@ -21,6 +21,6 @@ git push origin "$tag"
 git push origin HEAD:main
 #git remote -v
 
-git-release-create $version abc.txt
+git-release-create $version tmp/programs.zip
 
 echo https://github.com/my-homes/programs/raw/main/url.txt
