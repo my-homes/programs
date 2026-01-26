@@ -8,3 +8,5 @@ ts=`date "+%Y.%m%d.%H%M.%S"`
 cd tmp
 find . -name "*.exe" -print | xargs -i dirname {} | xargs -i touch {}/.path
 find . -name .path
+touch zulu17-jdk/.java_home
+find . -name .java_home
