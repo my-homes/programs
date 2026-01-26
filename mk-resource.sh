@@ -35,6 +35,9 @@ cp -rp /c/Users/user/scoop/apps/swig/current/* swig/
 mkdir -p zulu17-jdk
 cp -rp /c/Users/user/scoop/apps/zulu17-jdk/current/* zulu17-jdk/
 
-find .
+find . -name "*.exe" -print | xargs -i dirname {} | xargs -i touch {}/.path
+find . -name .path
+touch zulu17-jdk/.java_home
+find . -name .java_home
 
 7z a -tzip -r programs.zip *
