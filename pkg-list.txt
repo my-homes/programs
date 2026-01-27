@@ -16,3 +16,4 @@ zulu17-jdk
 dotnet-sdk
 mingw-winlibs
 programs
+w64devkit

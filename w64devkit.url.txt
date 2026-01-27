@@ -1,0 +1,1 @@
+w64devkit w64devkit.v2026.0128.0805.25 https://github.com/my-homes/programs/releases/download/w64devkit.v2026.0128.0805.25/w64devkit.zip
