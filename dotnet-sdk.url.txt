@@ -1,0 +1,1 @@
+dotnet-sdk dotnet-sdk.v2026.0128.0557.36 https://github.com/my-homes/programs/releases/download/dotnet-sdk.v2026.0128.0557.36/dotnet-sdk.zip
