@@ -1,5 +1,6 @@
 dart
 deno
+dotnet-sdk
 ffmpeg
 gh
 groovy
@@ -9,5 +10,3 @@ python
 swig
 yt-dlp
 zulu17-jdk
-dotnet-sdk
-mingw-winlibs
