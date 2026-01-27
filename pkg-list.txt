@@ -11,3 +11,4 @@ pwsh
 mingw-winlibs
 groovy
 dart
+rider
