@@ -1,0 +1,11 @@
+#! /usr/bin/env bash
+#set -uvx
+set -e
+cd "$(dirname "$0")"
+cwd=`pwd`
+ts=`date "+%Y.%m%d.%H%M.%S"`
+
+while read -r pkg; do
+  echo $pkg 1>&2
+  git-release-older $pkg
+done <<< "$(cat pkg-list.txt)"
