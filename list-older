@@ -10,7 +10,7 @@ dos2unix pkg-list.txt 1>&2
 while read -r pkg; do
   echo Checking: $pkg 1>&2
   while read -r release; do
-    if [[ ! -z "$MY_VAR" ]]; then
+    if [[ ! -z "$release" ]]; then
       echo list-older: $release 1>&2
       echo $release
      fi
