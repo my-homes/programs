@@ -7,4 +7,5 @@ ts=`date "+%Y.%m%d.%H%M.%S"`
 
 while read -r release; do
   echo "\$release: $release"
+  git-release-remove $release
 done <<< "$(./list-older)"
