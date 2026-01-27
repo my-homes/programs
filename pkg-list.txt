@@ -14,3 +14,4 @@ swig
 yt-dlp
 zulu17-jdk
 dotnet-sdk
+mingw-winlibs
