@@ -10,3 +10,4 @@ deno
 gh
 pwsh
 mingw-winlibs
+groovy
