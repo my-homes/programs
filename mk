@@ -24,5 +24,6 @@ cp -rp /c/Users/user/scoop/apps/$app/current/* ./
 find . -name "*.exe" -print | xargs -i dirname {} | xargs -i touch {}/.path
 touch .path-list.txt
 find . -name .path | xargs -i dirname {} >> .path-list.txt
+find . -name .path -exec rm -rf {} +
 
 7z a -tzip -r $app.zip $(find . -mindepth 1 -maxdepth 1)
