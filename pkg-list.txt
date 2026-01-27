@@ -5,12 +5,11 @@ gh
 git
 groovy
 idea
-mingw-winlibs
 notepad3
 pwsh
 python
+racket
 rider
 swig
 yt-dlp
 zulu17-jdk
-racket
