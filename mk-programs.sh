@@ -23,9 +23,6 @@ cp -rp /c/Users/user/scoop/apps/deno/current/* deno/
 mkdir -p yt-dlp
 cp -rp /c/Users/user/scoop/apps/yt-dlp/current/* yt-dlp/
 
-mkdir -p ffmpeg
-cp -rp /c/Users/user/scoop/apps/ffmpeg/current/* ffmpeg/
-
 find . -name "*.exe" -print | xargs -i dirname {} | xargs -i touch {}/.path
 find . -name .path
 touch zulu17-jdk/.java_home

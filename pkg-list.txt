@@ -5,3 +5,4 @@ zulu17-jdk
 swig
 python
 ffmpeg
+yt-dlp
