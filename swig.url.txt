@@ -1,0 +1,1 @@
+swig swig.v2026.0127.1915.38 https://github.com/my-homes/programs/releases/download/swig.v2026.0127.1915.38/swig.zip

@@ -2,3 +2,4 @@ programs
 git
 notepad3
 zulu17-jdk
+swig
