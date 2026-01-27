@@ -1,0 +1,27 @@
+#! /usr/bin/env bash
+set -uvx
+set -e
+cd "$(dirname "$0")"
+cwd=`pwd`
+ts=`date "+%Y.%m%d.%H%M.%S"`
+
+app="$1"
+
+scoop install git
+scoop bucket add extras
+scoop bucket add java
+
+scoop install "$app"
+scoop update "$app"
+
+cd $cwd
+rm -rf tmp
+mkdir tmp
+cd $cwd/tmp
+
+cp -rp /c/Users/user/scoop/apps/$app/current/* ./
+
+find . -name "*.exe" -print | xargs -i dirname {} | xargs -i touch {}/.path
+find . -name .path
+
+7z a -tzip -r $app.zip $(find . -mindepth 1 -maxdepth 1)
