@@ -1,0 +1,1 @@
+git git.v2026.0127.1714.41 https://github.com/my-homes/programs/releases/download/git.v2026.0127.1714.41/git.zip
