@@ -18,4 +18,4 @@ cp -rp /c/Users/user/scoop/apps/git/current/* ./
 #touch cmd/.path
 echo "./cmd">.path-list.txt
 
-7z a -tzip -r git.zip *
+7z a -tzip -r git.zip  $(find . -mindepth 1 -maxdepth 1)

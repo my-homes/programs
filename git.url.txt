@@ -1,1 +1,1 @@
-git git.v2026.0127.2215.26 https://github.com/my-homes/programs/releases/download/git.v2026.0127.2215.26/git.zip
+git git.v2026.0127.2219.46 https://github.com/my-homes/programs/releases/download/git.v2026.0127.2219.46/git.zip
