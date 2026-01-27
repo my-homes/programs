@@ -11,8 +11,9 @@ scoop install git
 scoop bucket add extras
 scoop bucket add java
 
+scoop uninstall "$app"
 scoop install "$app"
-scoop update "$app"
+#scoop update "$app"
 
 cd $cwd
 rm -rf tmp

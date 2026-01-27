@@ -13,3 +13,4 @@ rider
 swig
 yt-dlp
 zulu17-jdk
+racket

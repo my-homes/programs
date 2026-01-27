@@ -1,0 +1,1 @@
+racket racket.v2026.0128.0311.21 https://github.com/my-homes/programs/releases/download/racket.v2026.0128.0311.21/racket.zip
