@@ -5,4 +5,3 @@ Name          Version          Source Updated             Info
 ----          -------          ------ -------             ----
 groovy        5.0.4            main   2026-01-25 21:31:51
 mingw-winlibs 15.2.0-13.0.0-r5 main   2026-01-12 20:13:47
-pwsh          7.5.4            main   2026-01-23 00:12:32
