@@ -6,3 +6,4 @@ swig
 python
 ffmpeg
 yt-dlp
+deno
