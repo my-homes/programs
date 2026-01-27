@@ -1,0 +1,1 @@
+zulu17-jdk zulu17-jdk.v2026.0127.1909.28 https://github.com/my-homes/programs/releases/download/zulu17-jdk.v2026.0127.1909.28/zulu17-jdk.zip
