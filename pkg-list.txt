@@ -8,3 +8,4 @@ ffmpeg
 yt-dlp
 deno
 gh
+pwsh

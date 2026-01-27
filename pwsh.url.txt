@@ -1,0 +1,1 @@
+pwsh pwsh.v2026.0127.1959.17 https://github.com/my-homes/programs/releases/download/pwsh.v2026.0127.1959.17/pwsh.zip
