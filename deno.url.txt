@@ -1,1 +1,1 @@
-deno deno.v2026.0127.2307.02 https://github.com/my-homes/programs/releases/download/deno.v2026.0127.2307.02/deno.zip
+deno deno.v2026.0128.0104.20 https://github.com/my-homes/programs/releases/download/deno.v2026.0128.0104.20/deno.zip
