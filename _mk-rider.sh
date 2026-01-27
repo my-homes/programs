@@ -11,15 +11,10 @@ mkdir tmp
 cd $cwd/tmp
 
 mkdir -p rider
-#cd "/c/Program Files/JetBrains/JetBrains Rider 2025.3.1"
 cd "/c/rider"
 find . -mindepth 1 -maxdepth 1 | xargs -i cp -rpv {} $cwd/tmp/
-echo "(1)"
 cd $cwd/tmp
-echo "(2)"
-touch bin/.path
-echo "(3)"
+#touch bin/.path
+echo "./bin">.path-list.txt
 
-#7z a -tzip -r rider.zip *
-7z a -t7z -r rider.zip *
-echo "(4)"
+7z a -tzip -r rider.zip  $(find . -mindepth 1 -maxdepth 1)
