@@ -5,9 +5,6 @@ cd "$(dirname "$0")"
 cwd=`pwd`
 ts=`date "+%Y.%m%d.%H%M.%S"`
 
-while read -r pkg; do
-  echo $pkg
-  while read -r release; do
-    echo $release
-  done <<< $(git-release-older $pkg)
-done <<< "$(cat pkg-list.txt)"
+while read -r release; do
+  echo "\$release: $release"
+done <<< "$(./list-older)"

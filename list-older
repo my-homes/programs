@@ -5,7 +5,12 @@ cd "$(dirname "$0")"
 cwd=`pwd`
 ts=`date "+%Y.%m%d.%H%M.%S"`
 
+dos2unix pkg-list.txt 1>&2
+
 while read -r pkg; do
-  echo $pkg 1>&2
-  git-release-older $pkg
+  #echo $pkg 1>&2
+  while read -r release; do
+    echo list-older: $release 1>&2
+    echo $release
+  done <<< $(git-release-older $pkg)
 done <<< "$(cat pkg-list.txt)"
