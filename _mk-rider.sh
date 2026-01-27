@@ -11,7 +11,8 @@ mkdir tmp
 cd $cwd/tmp
 
 mkdir -p rider
-cd "/c/Program Files/JetBrains/JetBrains Rider 2025.3.1"
+#cd "/c/Program Files/JetBrains/JetBrains Rider 2025.3.1"
+cd "/c/rider"
 find . -mindepth 1 -maxdepth 1 | xargs -i cp -rpv {} $cwd/tmp/
 echo "(1)"
 cd $cwd/tmp
