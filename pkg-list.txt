@@ -12,3 +12,4 @@ mingw-winlibs
 groovy
 dart
 rider
+idea
