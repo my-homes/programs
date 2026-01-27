@@ -1,1 +1,1 @@
-python python.v2026.0127.1933.03 https://github.com/my-homes/programs/releases/download/python.v2026.0127.1933.03/python.zip
+python python.v2026.0127.2242.19 https://github.com/my-homes/programs/releases/download/python.v2026.0127.2242.19/python.zip
