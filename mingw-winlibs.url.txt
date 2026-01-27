@@ -1,1 +1,1 @@
-mingw-winlibs mingw-winlibs.v2026.0127.2005.32 https://github.com/my-homes/programs/releases/download/mingw-winlibs.v2026.0127.2005.32/mingw-winlibs.zip
+mingw-winlibs mingw-winlibs.v2026.0127.2315.47 https://github.com/my-homes/programs/releases/download/mingw-winlibs.v2026.0127.2315.47/mingw-winlibs.zip

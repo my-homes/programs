@@ -15,6 +15,7 @@ cd $cwd/tmp
 
 mkdir -p mingw-winlibs
 cp -rp /c/Users/user/scoop/apps/mingw-winlibs/current/* ./
-touch bin/.path
+#touch bin/.path
+echo "./bin">.path-list.txt
 
-7z a -tzip -r mingw-winlibs.zip *
+7z a -tzip -r mingw-winlibs.zip  $(find . -mindepth 1 -maxdepth 1)
