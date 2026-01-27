@@ -15,6 +15,7 @@ cd $cwd/tmp
 
 mkdir -p git
 cp -rp /c/Users/user/scoop/apps/git/current/* ./
-touch cmd/.path
+#touch cmd/.path
+echo "./cmd">.path-list.txt
 
 7z a -tzip -r git.zip *
