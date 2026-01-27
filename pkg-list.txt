@@ -11,3 +11,4 @@ gh
 pwsh
 mingw-winlibs
 groovy
+dart
