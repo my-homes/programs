@@ -29,12 +29,6 @@ cp -rp /c/Users/user/scoop/apps/ffmpeg/current/* ffmpeg/
 mkdir -p python
 cp -rp /c/Users/user/scoop/apps/python/current/* python/
 
-mkdir -p swig
-cp -rp /c/Users/user/scoop/apps/swig/current/* swig/
-
-mkdir -p zulu17-jdk
-cp -rp /c/Users/user/scoop/apps/zulu17-jdk/current/* zulu17-jdk/
-
 find . -name "*.exe" -print | xargs -i dirname {} | xargs -i touch {}/.path
 find . -name .path
 touch zulu17-jdk/.java_home
