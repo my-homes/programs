@@ -24,11 +24,12 @@ cd $cwd/tmp
 while read -r app; do
   echo $app
   mkdir -p "$app"
-  #cp -rp /c/Users/user/scoop/apps/$app/current/* ./$app/
   robocopy "C:/Users/user/scoop/apps/$app/current" ./$app -mir
 done <<< $(cat $cwd/programs.txt)
 
 cd $cwd/tmp
+find . -name "*.bat" -print | xargs -i dirname {} | xargs -i touch {}/.path
+find . -name "*.cmd" -print | xargs -i dirname {} | xargs -i touch {}/.path
 find . -name "*.exe" -print | xargs -i dirname {} | xargs -i touch {}/.path
 touch .path-list.txt
 find . -name .path | xargs -i dirname {} >> .path-list.txt

@@ -24,11 +24,10 @@ mkdir -p tmp
 mkdir tmp
 cd $cwd/tmp
 
-#cp -rp /c/Users/user/scoop/apps/$app/current/* ./
-#xcopy /c/Users/user/scoop/apps/$app/current/* . -s -e
-#robocopy "`cygpath -w /c/Users/user/scoop/apps/$app/current`" . -mir
 robocopy "C:/Users/user/scoop/apps/$app/current" . -mir
 
+find . -name "*.bat" -print | xargs -i dirname {} | xargs -i touch {}/.path
+find . -name "*.cmd" -print | xargs -i dirname {} | xargs -i touch {}/.path
 find . -name "*.exe" -print | xargs -i dirname {} | xargs -i touch {}/.path
 touch .path-list.txt
 find . -name .path | xargs -i dirname {} >> .path-list.txt
