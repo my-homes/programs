@@ -12,11 +12,14 @@ cd $cwd/tmp
 
 mkdir -p x32 x64
 
-cd "/c/Program Files (x86)\Racket"
-find . -mindepth 1 -maxdepth 1 | xargs -i cp -rpv {} $cwd/tmp/x32/
+#cd "/c/racket/x32"
+#find . -mindepth 1 -maxdepth 1 | xargs -i cp -rpv {} $cwd/tmp/x32/
+robocopy "C:/racket/x32" $cwd/tmp/x32 -mir
 
-cd "/c/Program Files\Racket"
-find . -mindepth 1 -maxdepth 1 | xargs -i cp -rpv {} $cwd/tmp/x64/
+
+#cd "/c/racket/x64"
+#find . -mindepth 1 -maxdepth 1 | xargs -i cp -rpv {} $cwd/tmp/x64/
+robocopy "C:/racket/x64" $cwd/tmp/x64 -mir
 
 cd $cwd/tmp
 echo ".">x32/.path-list.txt

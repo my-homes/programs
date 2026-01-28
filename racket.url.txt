@@ -1,1 +1,1 @@
-racket racket.v2026.0128.0527.11 https://github.com/my-homes/programs/releases/download/racket.v2026.0128.0527.11/racket.zip
+racket racket.v2026.0128.1321.32 https://github.com/my-homes/programs/releases/download/racket.v2026.0128.1321.32/racket.zip
