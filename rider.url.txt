@@ -1,1 +1,1 @@
-rider rider.v2026.0127.2329.00 https://github.com/my-homes/programs/releases/download/rider.v2026.0127.2329.00/rider.zip
+rider rider.v2026.0127.2102.23 https://github.com/my-homes/programs/releases/download/rider.v2026.0127.2102.23/rider.zip
