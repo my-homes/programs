@@ -5,3 +5,4 @@ rider
 programs
 w64devkit
 emacs
+yt-dlp
