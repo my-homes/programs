@@ -1,3 +1,5 @@
+yt-dlp
+deno
 git
 idea
 racket
@@ -5,5 +7,3 @@ rider
 programs
 w64devkit
 emacs
-yt-dlp
-deno
