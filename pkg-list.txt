@@ -6,3 +6,4 @@ programs
 w64devkit
 emacs
 yt-dlp
+deno
