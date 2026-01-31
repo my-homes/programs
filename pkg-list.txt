@@ -7,3 +7,4 @@ rider
 programs
 w64devkit
 emacs
+vscode

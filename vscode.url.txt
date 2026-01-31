@@ -1,0 +1,1 @@
+vscode vscode.v2026.0131.2037.49 https://github.com/my-homes/programs/releases/download/vscode.v2026.0131.2037.49/vscode.zip
